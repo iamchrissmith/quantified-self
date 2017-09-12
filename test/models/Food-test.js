@@ -22,7 +22,7 @@ describe('Food', () => {
 
   context('methods', () => {
     it('turns food object to HTML', () => {
-      const deleteIcon = '../../vendor/assets/delete.png';
+      const deleteIcon = 'https://rongxanh88.github.io/quantified-self/vendor/assets/delete.png';
       const attrs = { id: 1, name: 'Tomato', calories: 200 };
       const food = new Food(attrs);
       const expectedHTML = `<tr class="food-row">` +
